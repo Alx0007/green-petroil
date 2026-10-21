@@ -1,0 +1,21 @@
+<header class="cabecalho">
+  <a routerLink="/" class="marca">GREEN PETROIL</a>
+
+  <nav aria-label="Menu principal">
+    <ul>
+      <li>
+        <a routerLink="/" routerLinkActive="ativo"
+           [routerLinkActiveOptions]="{ exact: true }"
+           ariaCurrentWhenActive="page">Início</a>
+      </li>
+      <li>
+        <a routerLink="/sobre" routerLinkActive="ativo"
+           ariaCurrentWhenActive="page">Sobre nós</a>
+      </li>
+      <li>
+        <a routerLink="/projetos" routerLinkActive="ativo"
+           ariaCurrentWhenActive="page">Projetos sociais</a>
+      </li>
+    </ul>
+  </nav>
+</header>
