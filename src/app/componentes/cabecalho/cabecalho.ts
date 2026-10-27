@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Component, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cabecalho',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink],
   templateUrl: './cabecalho.html',
-  styleUrl: './cabecalho.css'
+  styleUrl: './cabecalho.css',
 })
-export class Cabecalho {}
+export class Cabecalho {
+  readonly menuAberto = signal(false);
+
+  alternarMenu(): void {
+    this.menuAberto.update((aberto) => !aberto);
+  }
+
+  fecharMenu(): void {
+    this.menuAberto.set(false);
+  }
+}

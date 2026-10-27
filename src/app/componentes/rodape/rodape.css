@@ -1,0 +1,70 @@
+
+:host {
+  display: block;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 1.2fr;
+  gap: 44px;
+  padding: 64px clamp(24px, 8vw, 120px) 24px;
+  background: #101713;
+  color: #d3ddd5;
+}
+
+.rodape > div > strong {
+  color: #4fa99a;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.rodape p {
+  color: #aebdb2;
+  line-height: 1.7;
+}
+
+.rodape nav,
+.rodape address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+.rodape nav strong,
+.rodape address strong {
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.rodape a {
+  color: #c1d1c5;
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  color: #b8d968;
+}
+
+.rodape .copyright {
+  grid-column: 1 / -1;
+  margin: 20px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid #344139;
+  font-size: 0.78rem;
+}
+
+@media (max-width: 700px) {
+  .rodape {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-top: 48px;
+  }
+
+  .rodape .copyright {
+    grid-column: auto;
+  }
+}

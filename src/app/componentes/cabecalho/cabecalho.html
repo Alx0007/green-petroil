@@ -1,21 +1,60 @@
-<header class="cabecalho">
-  <a routerLink="/" class="marca">GREEN PETROIL</a>
 
-  <nav aria-label="Menu principal">
-    <ul>
-      <li>
-        <a routerLink="/" routerLinkActive="ativo"
-           [routerLinkActiveOptions]="{ exact: true }"
-           ariaCurrentWhenActive="page">Início</a>
-      </li>
-      <li>
-        <a routerLink="/sobre" routerLinkActive="ativo"
-           ariaCurrentWhenActive="page">Sobre nós</a>
-      </li>
-      <li>
-        <a routerLink="/projetos" routerLinkActive="ativo"
-           ariaCurrentWhenActive="page">Projetos sociais</a>
-      </li>
-    </ul>
+<header class="cabecalho">
+  <a class="marca" routerLink="/" aria-label="Green Petroil — página inicial">
+    <span class="marca__simbolo" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none">
+        <path
+          d="M20 3C15 11 8 18 8 25a12 12 0 0 0 24 0C32 18 25 11 20 3Z"
+          fill="currentColor"
+        />
+        <path
+          d="M14 26c1 4 4 6 8 6"
+          stroke="#B8D968"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+      </svg>
+    </span>
+
+    <span class="marca__texto">
+      <strong>VERDE PETROLEO</strong>
+      <small>ENERGIA EM MOVIMENTO</small>
+    </span>
+  </a>
+
+  <button
+    class="menu-toggle"
+    type="button"
+    (click)="alternarMenu()"
+    [attr.aria-expanded]="menuAberto()"
+    aria-controls="navegacao-principal"
+    [attr.aria-label]="menuAberto() ? 'Fechar menu' : 'Abrir menu'"
+  >
+    @if (menuAberto()) {
+      <span aria-hidden="true">✕</span>
+    } @else {
+      <span aria-hidden="true">☰</span>
+    }
+  </button>
+
+  <nav
+    id="navegacao-principal"
+    class="navegacao"
+    [class.navegacao--aberta]="menuAberto()"
+    aria-label="Menu principal"
+  >
+    <a href="#inicio" (click)="fecharMenu()">Início</a>
+    <a href="#sobre" (click)="fecharMenu()">A empresa</a>
+    <a href="#solucoes" (click)="fecharMenu()">Soluções</a>
+    <a href="#sustentabilidade" (click)="fecharMenu()">Sustentabilidade</a>
+
+    <a
+      class="navegacao__contato"
+      href="#contato"
+      (click)="fecharMenu()"
+    >
+      Fale conosco
+      <span aria-hidden="true">↗</span>
+    </a>
   </nav>
 </header>
