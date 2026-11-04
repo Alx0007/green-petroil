@@ -41,3 +41,10 @@ img {
   }
 }
 
+.sobretitulo {
+  margin: 0 0 20px;
+  color: #477c61;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+}

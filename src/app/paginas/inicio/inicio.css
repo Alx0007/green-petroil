@@ -20,7 +20,7 @@
   position: absolute;
   z-index: -2;
   inset: 0;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzluojxVGvrrU22-A_FBKBd-lNTtD7wcUtdKs0Mq48A&s=10");
+  background-image: url("/imagens/card2.avif");
   background-size: cover;
   background-position: center;
 }
@@ -221,26 +221,15 @@
   }
 }
 
-
-.sobretitulo {
-  margin: 0 0 20px;
-  color: #477c61;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.17em;
-}
-
 .secao-sobre,
 .secao-solucoes,
-.secao-sustentabilidade,
-.secao-contato {
+.secao-sustentabilidade {
   scroll-margin-top: 100px;
 }
 
 .secao-sobre h2,
 .secao-cabecalho h2,
-.sustentabilidade__texto h2,
-.contato__conteudo h2 {
+.sustentabilidade__texto h2 {
   margin: 0;
   color: #173d35;
   font-size: clamp(2.1rem, 4vw, 3.5rem);
@@ -502,88 +491,22 @@
   border-color: rgb(216 239 195 / 55%);
 }
 
-.sustentabilidade__simbolo {
-  color: #d6ecaa;
-  font-size: 7rem;
-  font-weight: 800;
-  letter-spacing: -0.1em;
+.sustentabilidade__card4 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .sustentabilidade__legenda {
   position: absolute;
   bottom: 24px;
-  color: #d6ecda;
+  color: #0b4f4a;
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.16em;
 }
-
-
-.secao-contato {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 48px;
-  padding: 100px clamp(24px, 8vw, 120px);
-  background: #ffffff;
-}
-
-.contato__conteudo {
-  max-width: 680px;
-}
-
-.contato__conteudo h2 {
-  max-width: 620px;
-}
-
-.contato__conteudo > p:not(.sobretitulo) {
-  max-width: 540px;
-  margin: 24px 0;
-  color: #63736b;
-  line-height: 1.8;
-}
-
-.contato__email {
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  color: #0b4f4a;
-  font-weight: 750;
-  overflow-wrap: anywhere;
-  text-decoration: none;
-}
-
-.contato__email:hover {
-  text-decoration: underline;
-  text-underline-offset: 5px;
-}
-
-.contato__selo {
-  display: flex;
-  min-width: 190px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-  color: #0b4f4a;
-  font-size: 2rem;
-  font-weight: 850;
-  letter-spacing: -0.04em;
-}
-
-.contato__selo-linha {
-  width: 70px;
-  height: 4px;
-  margin: 12px 0;
-  background: #b8d968;
-}
-
-.contato__selo small {
-  color: #63736b;
-  font-size: 0.58rem;
-  letter-spacing: 0.13em;
-}
-
 
 @media (max-width: 900px) {
   .secao-sobre,
@@ -616,10 +539,7 @@
 @media (max-width: 600px) {
   .secao-sobre,
   .secao-solucoes,
-  .secao-sustentabilidade,
-  .secao-contato {
-    padding: 76px 24px;
-  }
+  .secao-sustentabilidade
 
   .solucoes__grade {
     grid-template-columns: 1fr;
@@ -636,14 +556,6 @@
     font-size: 0.55rem;
   }
 
-  .secao-contato {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .contato__selo {
-    font-size: 1.8rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
