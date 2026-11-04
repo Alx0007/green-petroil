@@ -32,8 +32,8 @@
     [class.navegacao--aberta]="menuAberto()"
     aria-label="Menu principal"
   >
-    <a href="#inicio" (click)="fecharMenu()">Início</a>
-    <a href="#sobre" (click)="fecharMenu()">A empresa</a>
+    <a routerLink="/" (click)="fecharMenu()">Início</a>
+    <a routerLink="/sobre" (click)="fecharMenu()">A empresa</a>
     <a href="#solucoes" (click)="fecharMenu()">Soluções</a>
     <a href="#sustentabilidade" (click)="fecharMenu()">Sustentabilidade</a>
 

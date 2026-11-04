@@ -1,0 +1,315 @@
+.apresentacao {
+  padding: 96px 120px 56px;
+  background: #ffffff;
+}
+
+.apresentacao h1 {
+  max-width: 820px;
+  margin: 0;
+  color: #173d35;
+  font-size: 3.6rem;
+  line-height: 1.1;
+}
+
+.descricao {
+  max-width: 620px;
+  margin-top: 24px;
+  color: #63736b;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+  padding: 24px 120px 0px;
+  background: linear-gradient(#f4f5ef 42%, #0c2f2b 42%);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 580px;
+  padding: 190px 36px 48px;
+  color: #ffffff;
+  text-align: center;
+  clip-path: polygon(0 16%, 68% 0, 100% 12%, 100% 100%, 0 100%);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  clip-path: polygon(0 16%, 68% 0, 100% 12%, 100% 46%);
+}
+
+.missao {
+  background: #0f6a62;
+}
+
+.visao {
+  background: #237a4c;
+}
+
+.valores {
+  background: #b8d968;
+  color: #0c2f2b;
+}
+
+.icone {
+  position: absolute;
+  top: 48px;
+  right: 36px;
+  width: 64px;
+  height: 64px;
+}
+
+.icone svg {
+  width: 100%;
+  height: 100%;
+}
+
+.card h2 {
+  position: relative;
+  margin: 0 0 16px;
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card p {
+  position: relative;
+  max-width: 300px;
+  margin: 0 0 32px;
+  line-height: 1.7;
+}
+
+.numero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-top: auto;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #0b4f4a;
+  font-size: 1.3rem;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+  .apresentacao {
+    padding: 72px 24px 40px;
+  }
+
+  .apresentacao h1 {
+    font-size: 2.4rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 24px 24px 0px;
+    background: linear-gradient(#f4f5ef 12%, #0c2f2b 12%);
+  }
+
+  .card {
+    width: 100%;
+    max-width: 460px;
+    min-height: 460px;
+    padding-top: 160px;
+    margin: 0 auto;
+  }
+}
+
+.historia {
+  padding: 88px 120px;
+  background: #f4f5ef;
+  text-align: center;
+}
+
+.historia h2 {
+  margin: 0 0 56px;
+  color: #173d35;
+  font-size: 2.6rem;
+}
+
+.linha {
+  position: relative;
+  width: 852px;
+  margin: 0 auto;
+}
+
+.linha-do-tempo {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.marco {
+  display: grid;
+  grid-template-rows: 170px 150px 170px;
+  grid-template-columns: 142px;
+  justify-items: center;
+  width: 142px;
+}
+
+.marco:nth-child(1) { color: #0f6a62; }
+.marco:nth-child(2) { color: #1b7a5a; }
+.marco:nth-child(3) { color: #237a4c; }
+.marco:nth-child(4) { color: #4f9a45; }
+.marco:nth-child(5) { color: #86b84a; }
+.marco:nth-child(6) { color: #a9cc55; }
+
+.caixa {
+  position: relative;
+  width: 230px;
+  height: 128px;
+  padding: 16px;
+  border: 1px solid #e5ebe7;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(13, 48, 40, 0.08);
+  text-align: left;
+}
+
+.marco:nth-child(odd) .caixa {
+  grid-row: 1;
+  align-self: end;
+  margin-bottom: 28px;
+}
+
+.marco:nth-child(even) .caixa {
+  grid-row: 3;
+  align-self: start;
+  margin-top: 28px;
+}
+
+.caixa::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.marco:nth-child(odd) .caixa::after {
+  bottom: -22px;
+}
+
+.marco:nth-child(even) .caixa::after {
+  top: -22px;
+}
+
+.caixa h3 {
+  margin: 0 0 6px;
+  color: #173d35;
+  font-size: 1rem;
+}
+
+.caixa p {
+  margin: 0;
+  color: #63736b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.ano {
+  position: relative;
+  z-index: 1;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 118px;
+  height: 118px;
+  margin-top: 16px;
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+  background: #e9eeea;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  color: #3d4f48;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.onda {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  width: 852px;
+  height: 150px;
+  overflow: visible;
+}
+
+.onda path {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+
+@media (max-width: 900px) {
+  .historia {
+    padding: 72px 24px;
+    text-align: left;
+  }
+
+  .historia h2 {
+    margin-bottom: 32px;
+    font-size: 2rem;
+  }
+
+  .linha {
+    width: 100%;
+  }
+
+  .linha-do-tempo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .marco {
+    grid-template-rows: auto;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .marco:nth-child(odd) .caixa,
+  .marco:nth-child(even) .caixa {
+    grid-row: 1;
+    grid-column: 2;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  .caixa::after,
+  .onda {
+    display: none;
+  }
+
+  .ano {
+    grid-row: 1;
+    grid-column: 1;
+    width: 84px;
+    height: 84px;
+    margin: 0;
+    border: 4px solid #0f6a62;
+    font-size: 1.1rem;
+  }
+}

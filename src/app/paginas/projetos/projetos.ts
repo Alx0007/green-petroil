@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { Chamada } from '../../componentes/chamada/chamada';
 
 @Component({
-  imports: [],
+  imports: [Chamada],
   selector: 'app-projetos',
   styleUrl: './projetos.css',
   templateUrl: './projetos.html',
