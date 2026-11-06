@@ -1,9 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-card-projeto',
-  styleUrl: './card-projeto.css',
+  imports: [],
   templateUrl: './card-projeto.html',
+  styleUrl: './card-projeto.css'
 })
-export class CardProjeto {}
+export class CardProjeto {
+  categoria = input('');
+  nome = input('');
+  descricao = input('');
+  local = input('');
+  impacto = input('');
+}

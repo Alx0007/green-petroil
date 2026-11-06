@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "titulo": "Plataforma Aurora inicia produção no pré-sal da Bacia de Santos",
+      "resumo": "Nova unidade opera com captura de carbono e reduz em 30% as emissões por barril produzido.",
+      "categoria": "Exploração",
+      "data": "12 out 2026",
+      "imagem": "/imagens/capa.png",
+      "alt": "Plataforma de petróleo em alto-mar ao pôr do sol",
+      "legenda": "A Aurora fica a 230 km da costa de São Paulo, em lâmina d'água de 2.100 metros.",
+      "texto": [
+        "A Green Petroil iniciou nesta semana a produção da Plataforma Aurora, sua mais moderna unidade flutuante de produção e armazenamento. Com capacidade para 180 mil barris por dia, a Aurora é a primeira da companhia a operar com um sistema completo de captura e reinjeção de carbono.",
+        "O gás carbônico separado durante a produção volta para o reservatório, em vez de ir para a atmosfera. A tecnologia, desenvolvida em parceria com universidades brasileiras, reduz em 30% as emissões por barril em relação às plataformas da geração anterior.",
+        "Parte da receita da Aurora será destinada ao Fundo Amanhã, que financia pesquisas em energia solar, eólica no mar e biocombustíveis."
+      ],
+      "citacao": "Tecnologia e cuidado ambiental não são opostos. A Aurora prova isso todos os dias.",
+      "autor": "Helena Duarte, diretora de Exploração"
+    },
+    {
+      "id": "2",
+      "titulo": "Refinaria Horizonte conclui modernização e produz diesel de baixo enxofre",
+      "resumo": "Investimento amplia a capacidade e entrega combustível mais limpo para todo o Sudeste.",
+      "categoria": "Inovação",
+      "data": "28 set 2026",
+      "imagem": "/imagens/noticia2.avif",
+      "alt": "Refinaria iluminada à noite",
+      "legenda": "A Refinaria Horizonte opera 24 horas por dia no interior de São Paulo.",
+      "texto": [
+        "A Refinaria Horizonte concluiu a maior modernização de sua história. Após três anos de obras, a unidade passa a produzir diesel com baixíssimo teor de enxofre, que emite menos poluentes nas cidades.",
+        "O investimento amplia em 20% a capacidade de refino e garante combustível mais limpo para caminhões e ônibus de todo o Sudeste.",
+        "As obras geraram 3.500 empregos temporários e a refinaria passou a reutilizar 80% da água usada em seus processos."
+      ],
+      "citacao": "Modernizar a refinaria é cuidar do ar que as pessoas respiram nas grandes cidades.",
+      "autor": "Ricardo Moura, diretor de Refino"
+    },
+    {
+      "id": "3",
+      "titulo": "Campo Terra Nova abre nova fronteira de exploração no Recôncavo Baiano",
+      "resumo": "Projeto gera 1.800 empregos diretos e prevê recuperação de 500 hectares de mata nativa.",
+      "categoria": "Exploração",
+      "data": "10 set 2026",
+      "imagem": "/imagens/noticia3.avif",
+      "alt": "Sonda de perfuração de petróleo ao amanhecer",
+      "legenda": "As primeiras perfurações do Terra Nova começaram em agosto.",
+      "texto": [
+        "A Green Petroil iniciou a exploração do Campo Terra Nova, no Recôncavo Baiano, região onde a companhia perfurou seu primeiro poço próprio em 1992.",
+        "O projeto vai gerar 1.800 empregos diretos, com prioridade para a contratação de moradores dos municípios vizinhos.",
+        "Junto com a exploração, a empresa vai recuperar 500 hectares de mata nativa ao redor do campo, em parceria com cooperativas locais."
+      ],
+      "citacao": "Voltar ao Recôncavo é voltar às nossas origens, agora com ainda mais responsabilidade.",
+      "autor": "Helena Duarte, diretora de Exploração"
+    }
+  ],
+  "projetos": [
+    {
+      "id": "1",
+      "nome": "Mares Vivos",
+      "categoria": "Meio ambiente",
+      "descricao": "Recuperação de recifes de coral e monitoramento de tartarugas marinhas.",
+      "local": "Ubatuba (SP)",
+      "impacto": "12 km de costa"
+    },
+    {
+      "id": "2",
+      "nome": "Escola de Energia",
+      "categoria": "Educação",
+      "descricao": "Cursos técnicos gratuitos em mecânica, elétrica e segurança do trabalho.",
+      "local": "Macaé (RJ)",
+      "impacto": "4.300 formados"
+    },
+    {
+      "id": "3",
+      "nome": "Água para Todos",
+      "categoria": "Comunidade",
+      "descricao": "Poços e cisternas para comunidades do semiárido nordestino.",
+      "local": "Sertão da Bahia",
+      "impacto": "18 mil pessoas"
+    },
+    {
+      "id": "4",
+      "nome": "Floresta que Respira",
+      "categoria": "Meio ambiente",
+      "descricao": "Reflorestamento da Mata Atlântica com mudas de espécies nativas.",
+      "local": "Campos (RJ)",
+      "impacto": "2 mi de árvores"
+    },
+    {
+      "id": "5",
+      "nome": "Sol na Escola",
+      "categoria": "Educação",
+      "descricao": "Painéis solares e aulas de energia renovável em escolas públicas.",
+      "local": "Campinas (SP)",
+      "impacto": "120 escolas"
+    },
+    {
+      "id": "6",
+      "nome": "Pesca Viva",
+      "categoria": "Comunidade",
+      "descricao": "Capacitação e equipamentos para pescadores artesanais do litoral.",
+      "local": "Macaé (RJ)",
+      "impacto": "900 famílias"
+    }
+  ]
+}

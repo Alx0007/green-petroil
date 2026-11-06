@@ -1,1 +1,16 @@
-<p>card-projeto works!</p>
+<article class="projeto">
+  <span class="categoria" [class.educacao]="categoria() === 'Educação'">{{ categoria() }}</span>
+  <h2>{{ nome() }}</h2>
+  <p>{{ descricao() }}</p>
+
+  <dl class="dados">
+    <div>
+      <dt>Local</dt>
+      <dd>{{ local() }}</dd>
+    </div>
+    <div>
+      <dt>Impacto</dt>
+      <dd>{{ impacto() }}</dd>
+    </div>
+  </dl>
+</article>
