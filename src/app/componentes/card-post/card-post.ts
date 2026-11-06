@@ -1,9 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [],
   selector: 'app-card-post',
-  styleUrl: './card-post.css',
+  imports: [RouterLink],
   templateUrl: './card-post.html',
+  styleUrl: './card-post.css'
 })
-export class CardPost {}
+export class CardPost {
+  numero = input('');
+  imagem = input('');
+  alt = input('');
+  categoria = input('');
+  data = input('');
+  titulo = input('');
+  resumo = input('');
+}

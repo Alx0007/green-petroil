@@ -1,0 +1,144 @@
+.post {
+  padding: 0 120px 96px;
+  background: #ffffff;
+}
+
+.capa {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.capa img {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.capa figcaption {
+  margin-top: 12px;
+  color: #4f645c;
+  font-size: 0.9rem;
+}
+
+.texto {
+  max-width: 720px;
+  margin: 56px auto 0;
+  color: #24302b;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.texto p {
+  margin: 0 0 24px;
+}
+
+.texto h2 {
+  margin: 48px 0 16px;
+  color: #173d35;
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+
+.texto blockquote {
+  margin: 40px 0;
+  padding: 32px;
+  border-radius: 16px;
+  background: #eaf3ee;
+}
+
+.texto blockquote p {
+  margin: 0 0 12px;
+  color: #0b4f4a;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.texto blockquote cite {
+  color: #4f645c;
+  font-size: 0.95rem;
+  font-style: normal;
+}
+
+.texto ul {
+  margin: 0 0 40px;
+  padding-left: 24px;
+}
+
+.texto li {
+  margin-bottom: 8px;
+}
+
+.voltar {
+  display: inline-block;
+  padding: 14px 24px;
+  border: 2px solid #0b4f4a;
+  border-radius: 999px;
+  color: #0b4f4a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.voltar:hover {
+  background: #0b4f4a;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .post {
+    padding: 0 24px 72px;
+  }
+
+  .capa img {
+    aspect-ratio: 4 / 3;
+    border-radius: 14px;
+  }
+
+  .texto {
+    margin-top: 40px;
+    font-size: 1.05rem;
+  }
+
+  .texto h2 {
+    font-size: 1.5rem;
+  }
+
+  .texto blockquote {
+    padding: 24px;
+  }
+
+  .texto blockquote p {
+    font-size: 1.2rem;
+  }
+}
+
+.leia-tambem {
+  padding: 80px 120px 96px;
+  background: #f4f5ef;
+}
+
+.leia-tambem h2 {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+  color: #173d35;
+  font-size: 2rem;
+}
+
+.leia-tambem__grade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .leia-tambem {
+    padding: 56px 24px 72px;
+  }
+
+  .leia-tambem__grade {
+    grid-template-columns: 1fr;
+  }
+}

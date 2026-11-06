@@ -1,1 +1,18 @@
-<p>card-post works!</p>
+<article class="card">
+  <img class="foto" [src]="imagem()" [alt]="alt()" />
+
+  <div class="conteudo">
+    <div class="info">
+      <span class="categoria" [class.inovacao]="categoria() === 'Inovação'">{{ categoria() }}</span>
+      <span class="data">{{ data() }}</span>
+    </div>
+
+    <h3>
+      <a routerLink="/post/{{ numero() }}">{{ titulo() }}</a>
+    </h3>
+
+    <p>{{ resumo() }}</p>
+
+    <span class="ler">Ler post completo →</span>
+  </div>
+</article>

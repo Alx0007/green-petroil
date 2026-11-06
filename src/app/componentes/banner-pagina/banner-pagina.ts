@@ -1,9 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-banner-pagina',
-  styleUrl: './banner-pagina.css',
+  imports: [],
   templateUrl: './banner-pagina.html',
+  styleUrl: './banner-pagina.css'
 })
-export class BannerPagina {}
+export class BannerPagina {
+  sobretitulo = input('');
+  titulo = input('');
+  descricao = input('');
+}

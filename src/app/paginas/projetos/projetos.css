@@ -1,0 +1,113 @@
+
+.numeros {
+  display: flex;
+  gap: 64px;
+  margin: 48px 0 0;
+  padding: 32px 0 0;
+  border-top: 1px solid #dfe7e2;
+  list-style: none;
+}
+
+.numeros strong {
+  display: block;
+  color: #0b4f4a;
+  font-size: 2.6rem;
+  line-height: 1.1;
+}
+
+.numeros span {
+  color: #4f645c;
+}
+
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 80px 120px 96px;
+  background: #f4f5ef;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 32px;
+  border: 1px solid #dfe7e2;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.categoria {
+  align-self: flex-start;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #eaf3ee;
+  color: #0b4f4a;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.educacao {
+  background: #fbeec7;
+  color: #6a4a00;
+}
+
+.projeto h2 {
+  margin: 8px 0 0;
+  color: #0c1f1b;
+  font-size: 1.4rem;
+}
+
+.projeto p {
+  flex-grow: 1;
+  margin: 0;
+  color: #4f645c;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid #dfe7e2;
+}
+
+.dados dt {
+  color: #4f645c;
+  font-size: 0.9rem;
+}
+
+.dados dd {
+  margin: 4px 0 0;
+  color: #0c1f1b;
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .projetos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .numeros {
+    gap: 32px;
+  }
+
+  .numeros strong {
+    font-size: 2rem;
+  }
+
+  .projetos {
+    grid-template-columns: 1fr;
+    padding: 56px 24px 72px;
+  }
+
+  .projeto {
+    padding: 24px;
+  }
+}

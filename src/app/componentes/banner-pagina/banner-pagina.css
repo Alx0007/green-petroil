@@ -1,0 +1,30 @@
+.apresentacao {
+  padding: 96px 120px 64px;
+  background: #ffffff;
+}
+
+.apresentacao h1 {
+  max-width: 820px;
+  margin: 0;
+  color: #173d35;
+  font-size: 3.6rem;
+  line-height: 1.1;
+}
+
+.descricao {
+  max-width: 620px;
+  margin-top: 24px;
+  color: #4f645c;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+  .apresentacao {
+    padding: 72px 24px 48px;
+  }
+
+  .apresentacao h1 {
+    font-size: 2.4rem;
+  }
+}

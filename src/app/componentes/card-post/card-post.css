@@ -1,0 +1,97 @@
+:host {
+  display: block;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #dfe7e2;
+  border-radius: 14px;
+  background: #ffffff;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(12, 31, 27, 0.1);
+}
+
+.foto {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #1f5c4a;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  padding: 24px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.categoria {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #eaf3ee;
+  color: #0b4f4a;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.inovacao {
+  background: #fbeec7;
+  color: #6a4a00;
+}
+
+.data {
+  color: #4f645c;
+  font-size: 0.9rem;
+}
+
+.card h3 {
+  margin: 0;
+  color: #0c1f1b;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card h3 a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card p {
+  flex-grow: 1;
+  margin: 0;
+  color: #4f645c;
+  line-height: 1.6;
+}
+
+.ler {
+  color: #0b4f4a;
+  font-weight: bold;
+}
+
+.card:hover .ler {
+  text-decoration: underline;
+}

@@ -1,1 +1,76 @@
-<p>post works!</p>
+<app-banner-pagina
+  sobretitulo="EXPLORAÇÃO · 12 DE OUTUBRO DE 2026"
+  titulo="Plataforma Aurora inicia produção no pré-sal da Bacia de Santos"
+  descricao="Nova unidade flutuante opera com captura de carbono e reduz em 30% as emissões por barril produzido."
+/>
+
+<article class="post">
+  <figure class="capa">
+    <img src="/imagens/capa.png" alt="Plataforma de petróleo em alto-mar ao pôr do sol" />
+    <figcaption>A Aurora fica a 230 km da costa de São Paulo, em lâmina d'água de 2.100 metros.</figcaption>
+  </figure>
+
+  <div class="texto">
+    <p>
+      A Green Petroil iniciou nesta semana a produção da Plataforma Aurora, sua mais
+      moderna unidade flutuante de produção e armazenamento. Com capacidade para
+      180 mil barris por dia, a Aurora é a primeira da companhia a operar com um
+      sistema completo de captura e reinjeção de carbono.
+    </p>
+    <p>
+      O gás carbônico separado durante a produção volta para o reservatório, em vez
+      de ir para a atmosfera. A tecnologia, desenvolvida em parceria com universidades
+      brasileiras, reduz em 30% as emissões por barril em relação às plataformas da
+      geração anterior.
+    </p>
+
+    <h2>Energia para a transição</h2>
+    <p>
+      Parte da receita da Aurora será destinada ao Fundo Amanhã, que financia pesquisas
+      em energia solar, eólica no mar e biocombustíveis.
+    </p>
+
+    <blockquote>
+      <p>"Tecnologia e cuidado ambiental não são opostos. A Aurora prova isso todos os dias."</p>
+      <cite>Helena Duarte, diretora de Exploração</cite>
+    </blockquote>
+
+    <h2>Números do projeto</h2>
+    <ul>
+      <li>180 mil barris por dia de capacidade</li>
+      <li>1,2 milhão de toneladas de gás carbônico reinjetadas por ano</li>
+      <li>2.400 empregos diretos e indiretos</li>
+    </ul>
+
+    <a class="voltar" routerLink="/">← Voltar para o início</a>
+  </div>
+</article>
+
+
+<section class="leia-tambem">
+  <h2>Leia também</h2>
+
+  <div class="leia-tambem__grade">
+    <app-card-post
+      numero="2"
+      imagem="/imagens/noticia2.avif"
+      alt="Refinaria iluminada à noite"
+      categoria="Inovação"
+      data="28 set 2026"
+      titulo="Refinaria Horizonte conclui modernização e produz diesel de baixo enxofre"
+      resumo="Investimento amplia a capacidade e entrega combustível mais limpo para todo o Sudeste."
+    />
+
+    <app-card-post
+      numero="3"
+      imagem="/imagens/noticia3.avif"
+      alt="Sonda de perfuração de petróleo ao amanhecer"
+      categoria="Exploração"
+      data="10 set 2026"
+      titulo="Campo Terra Nova abre nova fronteira de exploração no Recôncavo Baiano"
+      resumo="Projeto gera 1.800 empregos diretos e prevê recuperação de 500 hectares de mata nativa."
+    />
+  </div>
+</section>
+
+<app-chamada />

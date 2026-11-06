@@ -343,6 +343,18 @@
   gap: 20px;
 }
 
+.secao-noticias {
+  padding: 112px clamp(24px, 8vw, 120px);
+  background: #ffffff;
+  scroll-margin-top: 100px;
+}
+
+.noticias__grade {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
 .solucao-card {
   display: flex;
   min-height: 330px;
@@ -516,6 +528,10 @@
 
   .secao-sobre__visual {
     max-width: 650px;
+  }
+
+  .noticias__grade {
+    grid-template-columns: 1fr;
   }
 
   .secao-cabecalho {
