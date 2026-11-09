@@ -32,10 +32,14 @@
     [class.navegacao--aberta]="menuAberto()"
     aria-label="Menu principal"
   >
-    <a routerLink="/" (click)="fecharMenu()">Início</a>
-    <a routerLink="/sobre" (click)="fecharMenu()">A empresa</a>
-    <a href="#solucoes" (click)="fecharMenu()">Soluções</a>
-    <a href="/projetos" (click)="fecharMenu()">Projetos Sociais</a>
+     <a routerLink="/" routerLinkActive="ativo"
+       [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'exact', fragment: 'exact', matrixParams: 'exact' }"
+       ariaCurrentWhenActive="page" (click)="fecharMenu()">Início</a>
+    <a routerLink="/sobre" routerLinkActive="ativo" ariaCurrentWhenActive="page" (click)="fecharMenu()">A empresa</a>
+    <a routerLink="/" fragment="noticias" routerLinkActive="ativo"
+       [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'exact', fragment: 'exact', matrixParams: 'exact' }"
+       ariaCurrentWhenActive="page" (click)="fecharMenu()">Notícias</a>
+    <a routerLink="/projetos" routerLinkActive="ativo" ariaCurrentWhenActive="page" (click)="fecharMenu()">Projetos Sociais</a>
 
     <a
       class="navegacao__contato"
