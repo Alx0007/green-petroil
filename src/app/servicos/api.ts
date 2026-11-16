@@ -8,7 +8,7 @@ import { Projeto } from '../modelos/projeto';
 })
 export class Api {
   private http = inject(HttpClient);
-  private endereco = 'http://localhost:3000';
+  private endereco = 'https://green-petroil.onrender.com';
 
   buscarNoticias() {
     return this.http.get<Noticia[]>(this.endereco + '/posts');
