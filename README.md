@@ -15,7 +15,7 @@
 
 ---
 
-## 🧭 Sumário
+##  Sumário
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
@@ -39,18 +39,18 @@ A plataforma foi construída com forte foco no desenvolvimento front-end moderno
 
 ## ⚡ Funcionalidades
 
-- **🏠 Página Inicial:** Apresentação da marca, proposta institucional de valor e principais áreas de atuação.
-- **⚙️ Soluções:** Seção dedicada a operações industriais, inovação tecnológica e eficiência energética.
-- **🏢 Sobre a Empresa:** Apresentação conceitual da organização, linha do tempo histórica, missão, visão e valores.
-- **🌱 Projetos Sociais:** Listagem de iniciativas focadas em sustentabilidade, meio ambiente, educação e comunidade.
-- **📰 Notícias & Editorial:** Exibição de conteúdos com categoria, data, imagem ilustrativa, resumo e página de leitura individual (`/post/:id`).
-- **🔗 Conteúdo Relacionado:** Navegação inteligente entre notícias correlacionadas a partir da página de leitura.
-- **🧭 Navegação Dinâmica:** Cabeçalho responsivo com links para as principais áreas e menu interativo.
-- **📌 Rodapé Institucional:** Informações de contato demonstrativas e links rápidos de navegação.
+- ** Página Inicial:** Apresentação da marca, proposta institucional de valor e principais áreas de atuação.
+- ** Soluções:** Seção dedicada a operações industriais, inovação tecnológica e eficiência energética.
+- ** Sobre a Empresa:** Apresentação conceitual da organização, linha do tempo histórica, missão, visão e valores.
+- ** Projetos Sociais:** Listagem de iniciativas focadas em sustentabilidade, meio ambiente, educação e comunidade.
+- ** Notícias & Editorial:** Exibição de conteúdos com categoria, data, imagem ilustrativa, resumo e página de leitura individual (`/post/:id`).
+- ** Conteúdo Relacionado:** Navegação inteligente entre notícias correlacionadas a partir da página de leitura.
+- ** Navegação Dinâmica:** Cabeçalho responsivo com links para as principais áreas e menu interativo.
+- ** Rodapé Institucional:** Informações de contato demonstrativas e links rápidos de navegação.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Linguagens
 | Tecnologia | Aplicação no projeto |
@@ -76,18 +76,18 @@ A plataforma foi construída com forte foco no desenvolvimento front-end moderno
 
 ---
 
-## 🗺️ Estrutura de Navegação
+##  Estrutura de Navegação
 
 | Rota | Descrição |
 | :--- | :--- |
-| `📁 /` | Página inicial institucional |
-| `🏢 /sobre` | Apresentação detalhada da empresa |
-| `🌱 /projetos` | Iniciativas e projetos sociais |
-| `📰 /post/:id` | Visualização detalhada de uma notícia específica |
+| ` /` | Página inicial institucional |
+| ` /sobre` | Apresentação detalhada da empresa |
+| ` /projetos` | Iniciativas e projetos sociais |
+| ` /post/:id` | Visualização detalhada de uma notícia específica |
 
 ---
 
-## 🔌 Dados e Integração com a API
+##  Dados e Integração com a API
 
 Os dados de demonstração estão centralizados no arquivo `db.json`. Ele fornece registros simulados de notícias e projetos que são servidos localmente por meio do `JSON Server`.
 
@@ -99,11 +99,11 @@ O serviço localizado em `src/app/servicos/api.ts` utiliza o `Angular HttpClient
 | **GET** | `/posts/:id` | Retorna os detalhes de uma notícia específica por ID. |
 | **GET** | `/projetos` | Retorna a lista de projetos sociais e ambientais. |
 
-> ⚠️ **Aviso de Configuração:** O JSON Server atua como camada de apoio para desenvolvimento local. Atualmente, o projeto não está integrado a um banco de dados de produção. O endpoint padrão está configurado como `http://localhost:3000` no serviço; para deploys em produção, certifique-se de apontar para a URL correspondente da API hospedada.
+>  **Aviso de Configuração:** O JSON Server atua como camada de apoio para desenvolvimento local. Atualmente, o projeto não está integrado a um banco de dados de produção. O endpoint padrão está configurado como `http://localhost:3000` no serviço; para deploys em produção, certifique-se de apontar para a URL correspondente da API hospedada.
 
 ---
 
-## 👥 Autores
+##  Autores
 
 Projeto desenvolvido colaborativamente em dupla:
 
@@ -143,7 +143,7 @@ Projeto desenvolvido colaborativamente em dupla:
 
 ---
 
-## 🎓 Contexto Acadêmico
+##  Contexto Acadêmico
 
 Este projeto foi desenvolvido para fins exclusivamente educacionais, como atividade avaliativa da disciplina de **Front-end e Frameworks** do curso superior de **Análise e Desenvolvimento de Sistemas (ADS)** da **Universidade Guarulhos (UNG)**.
 
