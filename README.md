@@ -39,14 +39,14 @@ A plataforma foi construída com forte foco no desenvolvimento front-end moderno
 
 ## ⚡ Funcionalidades
 
-- ** Página Inicial:** Apresentação da marca, proposta institucional de valor e principais áreas de atuação.
-- ** Soluções:** Seção dedicada a operações industriais, inovação tecnológica e eficiência energética.
-- ** Sobre a Empresa:** Apresentação conceitual da organização, linha do tempo histórica, missão, visão e valores.
-- ** Projetos Sociais:** Listagem de iniciativas focadas em sustentabilidade, meio ambiente, educação e comunidade.
-- ** Notícias & Editorial:** Exibição de conteúdos com categoria, data, imagem ilustrativa, resumo e página de leitura individual (`/post/:id`).
-- ** Conteúdo Relacionado:** Navegação inteligente entre notícias correlacionadas a partir da página de leitura.
-- ** Navegação Dinâmica:** Cabeçalho responsivo com links para as principais áreas e menu interativo.
-- ** Rodapé Institucional:** Informações de contato demonstrativas e links rápidos de navegação.
+-  Página Inicial:** Apresentação da marca, proposta institucional de valor e principais áreas de atuação.
+-  Soluções:** Seção dedicada a operações industriais, inovação tecnológica e eficiência energética.
+-  Sobre a Empresa:** Apresentação conceitual da organização, linha do tempo histórica, missão, visão e valores.
+-  Projetos Sociais:** Listagem de iniciativas focadas em sustentabilidade, meio ambiente, educação e comunidade.
+-  Notícias & Editorial:** Exibição de conteúdos com categoria, data, imagem ilustrativa, resumo e página de leitura individual (`/post/:id`).
+-  Conteúdo Relacionado:** Navegação inteligente entre notícias correlacionadas a partir da página de leitura.
+-  Navegação Dinâmica:** Cabeçalho responsivo com links para as principais áreas e menu interativo.
+-  Rodapé Institucional:** Informações de contato demonstrativas e links rápidos de navegação.
 
 ---
 
