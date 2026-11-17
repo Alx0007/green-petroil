@@ -121,6 +121,20 @@ Projeto desenvolvido colaborativamente em dupla:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/a.lxandre/)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-lacerda-8278702a8/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### 💻 Lucas dos Santos Cunha
+**RA:** 28329829 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/lucas.scunhaa/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-dos-santos-cunha-a5a118287/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### 💻 Arquibaldo André da Silva Veloso
+**RA:** 28174086 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/andreveloso10/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andr%C3%A9-veloso-692392178/)
+
 </div>
 
 ---
